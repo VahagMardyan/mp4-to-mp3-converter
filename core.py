@@ -1,5 +1,5 @@
 import os
-from moviepy.editor import VideoFileClip
+from moviepy import VideoFileClip
 
 DESKTOP_DIR = os.path.join(os.path.expanduser("~"),"Desktop")
 
